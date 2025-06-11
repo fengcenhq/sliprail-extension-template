@@ -6,9 +6,7 @@ A template for creating extensions for Sliprail, a modern productivity tool. Vis
 
 Click the button below to install this extension directly in Sliprail:
 
-<a href="https://sliprail.fengcen.io/install-extension?id=b26ae868-15ff-4c6a-af6e-9a58b6a66839" target="_blank">
-  <img src="https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge" alt="Install in Sliprail"/>
-</a>
+[![Install in Sliprail](https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge)](https://sliprail.fengcen.io/install-extension?id=b26ae868-15ff-4c6a-af6e-9a58b6a66839)
 
 **Note:** If Sliprail is not installed on your computer, the button will not work. Please download and install Sliprail from the [official website](https://sliprail.fengcen.io) first.
 
