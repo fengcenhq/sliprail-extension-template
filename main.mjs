@@ -4,7 +4,7 @@ export default {
       id: 'ShortcutExample',
       displayName: 'Shortcut Example',
       handle: (parameters) => {
-        sliprail.showAlert('Shortcut Example');
+        sliprailMain.showAlert('Shortcut Example');
       },
     },
   ],
