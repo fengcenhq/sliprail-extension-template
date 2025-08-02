@@ -1,0 +1,6 @@
+{
+  "name": "root",
+  "devDependencies": {
+    "@sliprail/sdk": "^0.1.0"
+  }
+}
