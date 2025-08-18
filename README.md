@@ -18,7 +18,7 @@ Click the button below to install this extension directly in Sliprail:
 ## Getting Started
 
 1. Clone this repository
-2. Follow the Sliprail extension documentation to customize
+2. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
 
 ## License
