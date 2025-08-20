@@ -1,6 +1,10 @@
 # sliprail-extension-template
 
-A template for creating extensions for Sliprail, a modern productivity tool. Visit the [official website](https://sliprail.fengcen.io) for more details.
+This repository serves as a reference for the manifest.json configuration of a single Sliprail extension. It demonstrates the basic structure and settings needed for an extension to work with Sliprail.
+
+## Extension Examples
+
+For complete extension examples and templates, please visit the [sliprail-extension-bundle-template](https://github.com/fengcenhq/sliprail-extension-bundle-template) repository. That repository contains comprehensive examples of various extensions and implementation patterns.
 
 ## Install Extension
 
@@ -12,14 +16,14 @@ Click the button below to install this extension directly in Sliprail:
 
 ## Features
 
-- Easy setup for extension development
-- Pre-configured for Sliprail compatibility
+- Reference manifest.json configuration for Sliprail extensions
+- Basic structure for extension development
 
 ## Getting Started
 
-1. Clone this repository
-2. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
-
+1. Clone this repository to see the manifest.json structure
+2. Visit the [sliprail-extension-bundle-template](https://github.com/fengcenhq/sliprail-extension-bundle-template) for complete examples
+3. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
 ## License
 
