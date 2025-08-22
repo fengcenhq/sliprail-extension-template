@@ -1,10 +1,13 @@
 export default {
   shortcuts: [
     {
-      id: 'ShortcutExample',
-      displayName: 'Shortcut Example',
-      handle: (parameters) => {
-        sliprailMain.showAlert('Shortcut Example');
+      id: 'Alert',
+      displayName: 'ShortcutExample - Single Extension Repository',
+        /**
+         * @param context {import('@sliprail/sdk').ShortcutContext}
+         */
+      handle: (context) => {
+        context.showAlert('Single Extension Repository');
       },
     },
   ],
