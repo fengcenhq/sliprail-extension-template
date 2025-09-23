@@ -25,6 +25,11 @@ Click the button below to install this extension directly in Sliprail:
 2. Visit the [sliprail-extension-bundle-template](https://github.com/fengcenhq/sliprail-extension-bundle-template) for complete examples
 3. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
+
+## API Docs
+
+[https://sliprail.fengcen.io/docs/sdk/api/](https://sliprail.fengcen.io/docs/sdk/api/)
+
 ## License
 
 MIT
