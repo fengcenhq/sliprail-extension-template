@@ -23,7 +23,7 @@ Click the button below to install this extension directly in Sliprail:
 1. Clone this repository
 2. Run `npm install`
 3. Develop using `main.mjs` and `index.html` as references
-4. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
+4. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/docs/developer/overview) to customize
 
 ## API Docs
 
