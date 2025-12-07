@@ -1,6 +1,16 @@
 {
   "name": "root",
   "devDependencies": {
-    "@sliprail/sdk": "^0.1.14"
+    "@sliprail/sdk": "^0.1.14",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.3"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,mjs,ts,html,css,json,md}": "prettier --write"
   }
 }
