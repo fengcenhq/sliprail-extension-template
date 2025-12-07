@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Window Extension</title>
+  </head>
+  <body>
+    <h1>Window Extension Example</h1>
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+      const channel = sliprail.createWindowChannel();
+      channel.on('message', (message) => {
+        alert(message);
+      });
+
+      function showMessage() {
+        channel.emit('getMessage');
+      }
+    </script>
+  </body>
+</html>

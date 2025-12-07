@@ -1,6 +1,6 @@
 # sliprail-extension-template
 
-This repository serves as a reference for the manifest.json configuration of a single Sliprail extension. It demonstrates the basic structure and settings needed for an extension to work with Sliprail.
+A reference template for Sliprail extensions.
 
 ## Install Extension
 
@@ -10,16 +10,20 @@ Click the button below to install this extension directly in Sliprail:
 
 **Note:** If Sliprail is not installed on your computer, the button will not work. Please download and install Sliprail from the [official website](https://sliprail.fengcen.io) first.
 
-## Features
+## Included Shortcut Examples
 
-- Reference manifest.json configuration for Sliprail extensions
-- Basic structure for extension development
+- **Alert**: Shows a simple alert.
+- **Notification**: Shows a notification with title and message.
+- **Get Parameter**: Displays the provided shortcut parameter.
+- **Window**: Opens a window and communicates via channel.
+- **Singleton Window**: Reuses the first window if it exists; otherwise creates one.
 
 ## Getting Started
 
-1. Clone this repository to see the manifest.json structure
-2. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
-
+1. Clone this repository
+2. Run `npm install`
+3. Develop using `main.mjs` and `index.html` as references
+4. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
 ## API Docs
 
