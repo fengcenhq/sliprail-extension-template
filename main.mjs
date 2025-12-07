@@ -34,7 +34,8 @@ export default {
        */
       handle: (context) => {
         const value = context.parameter;
-        const formatted = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+        const formatted =
+          typeof value === 'string' ? value : JSON.stringify(value, null, 2);
         context.showAlert(formatted ?? '');
       },
     },
