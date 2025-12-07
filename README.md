@@ -18,8 +18,7 @@ Click the button below to install this extension directly in Sliprail:
 ## Getting Started
 
 1. Clone this repository to see the manifest.json structure
-
-3. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
+2. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
 
 ## API Docs
