@@ -45,13 +45,13 @@ export default {
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
-      handle: (context) => {
+      handle: async (context) => {
         const channel = context.createWindowChannel();
         channel.on('getMessage', () => {
           channel.emit('message', 'Hello from Window Shortcut!');
         });
 
-        context.createWindow({
+        await context.createWindow({
           channel,
           htmlFile: 'index.html',
           title: 'Window Example',
@@ -72,7 +72,7 @@ export default {
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
-      handle: (context) => {
+      handle: async (context) => {
         const singletonWindow = context.getWindows()[0];
         if (singletonWindow != null) {
           singletonWindow.show();
@@ -84,7 +84,7 @@ export default {
           channel.emit('message', 'Hello from Singleton Window Shortcut!');
         });
 
-        context.createWindow({
+        await context.createWindow({
           channel,
           htmlFile: 'index.html',
           title: 'Window Example',
