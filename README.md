@@ -6,7 +6,7 @@ A reference template for Sliprail extensions.
 
 Click the button below to install this extension directly in Sliprail:
 
-[![Install in Sliprail](https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge)](https://sliprail.fengcen.io/install-extension?id=b26ae868-15ff-4c6a-af6e-9a58b6a66839)
+[![Install in Sliprail](https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge)](https://sliprail.fengcen.io/install?id=b26ae868-15ff-4c6a-af6e-9a58b6a66839)
 
 **Note:** If Sliprail is not installed on your computer, the button will not work. Please download and install Sliprail from the [official website](https://sliprail.fengcen.io) first.
 
