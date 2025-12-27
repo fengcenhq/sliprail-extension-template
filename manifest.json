@@ -1,5 +1,13 @@
 {
   "id": "b26ae868-15ff-4c6a-af6e-9a58b6a66839",
+  "name": {
+    "en": "Example Extension",
+    "zh-hans": "示例扩展"
+  },
+  "description": {
+    "en": "Example Extension Description",
+    "zh-hans": "示例扩展描述"
+  },
   "icon": {
     "src": "icon.svg",
     "template": true
