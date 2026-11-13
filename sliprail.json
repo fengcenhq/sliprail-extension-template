@@ -12,5 +12,7 @@
     "src": "icon.svg",
     "template": true
   },
-  "main": "main.mjs"
+  "extension": {
+    "main": "main.mjs"
+  }
 }

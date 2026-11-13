@@ -21,9 +21,22 @@ Click the button below to install this extension directly in Sliprail:
 ## Getting Started
 
 1. Clone this repository
-2. Run `npm install`
-3. Develop using `main.mjs` and `index.html` as references
-4. Follow the [Sliprail extension documentation](https://sliprail.com/docs/developer/overview) to customize
+2. Run `npm install` (only for `@sliprail/sdk` types and formatting tools; Sliprail does not install dependencies, so bundle any runtime dependency into the build output)
+3. Edit `sliprail.json` (package name, description, icon and `extension.main`) and develop using `main.mjs` and `index.html` as references
+4. With Sliprail running, run `jvs dev` in this directory to load the extension; it reloads after changes
+5. Follow the [Sliprail extension documentation](https://sliprail.com/docs/developer/overview) to customize
+
+## Package Structure
+
+```text
+sliprail-extension-template/
+├── sliprail.json   # package config: id, displayName, description, icon, extension.main
+├── main.mjs        # extension entry (ES module, default export)
+├── index.html      # window page opened by the Window examples
+└── icon.svg
+```
+
+Keep the `id` in `sliprail.json`; it identifies the extension and its data.
 
 ## API Docs
 

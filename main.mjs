@@ -5,7 +5,10 @@ export default {
   shortcuts: [
     {
       id: 'Alert',
-      displayName: 'Shortcut Example - Alert',
+      displayName: {
+        en: 'Shortcut Example - Alert',
+        'zh-hans': '命令示例 - 提示框',
+      },
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
@@ -15,7 +18,10 @@ export default {
     },
     {
       id: 'Notification',
-      displayName: 'Shortcut Example - Notification',
+      displayName: {
+        en: 'Shortcut Example - Notification',
+        'zh-hans': '命令示例 - 通知',
+      },
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
@@ -28,7 +34,11 @@ export default {
     },
     {
       id: 'GetParameter',
-      displayName: 'Shortcut Example - Get Parameter',
+      displayName: {
+        en: 'Shortcut Example - Get Parameter',
+        'zh-hans': '命令示例 - 获取参数',
+      },
+      acceptsParameter: true,
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
@@ -41,7 +51,10 @@ export default {
     },
     {
       id: 'Window',
-      displayName: 'Shortcut Example - Window',
+      displayName: {
+        en: 'Shortcut Example - Window',
+        'zh-hans': '命令示例 - 窗口',
+      },
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
@@ -68,7 +81,10 @@ export default {
     },
     {
       id: 'SingletonWindow',
-      displayName: 'Shortcut Example - Singleton Window',
+      displayName: {
+        en: 'Shortcut Example - Singleton Window',
+        'zh-hans': '命令示例 - 单例窗口',
+      },
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
